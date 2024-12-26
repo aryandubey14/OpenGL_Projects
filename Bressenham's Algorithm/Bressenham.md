@@ -19,6 +19,7 @@ The algorithm increments one pixel at a time, calculating which pixel (either st
 4) Iterate Over X :- 
 
 If **p<0**, the next pixel is horizontally adjacent. Update p as : p = p + 2dy
+
 If **p>0**, the next pixel is horizontally adjacent. Update p as : p = p + 2dy - 2dx
 
 5) Plot the Points
