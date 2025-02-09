@@ -10,7 +10,7 @@ A clipping window defines the area where lines should be visible. Any part of a 
 
 ## Line Clipping Algorithms
 
-1. Cohen-Sutherland Line Clipping Algorithm
+1. **Cohen-Sutherland Line Clipping Algorithm**
 
 This algorithm efficiently clips a line against a rectangular window using outcodes (binary region codes) to classify endpoints.
 
@@ -24,7 +24,7 @@ This algorithm efficiently clips a line against a rectangular window using outco
 
 - If the line is partially inside, compute intersection points with the window edges and recursively check the new segment.
 
-2. Liang-Barsky Line Clipping Algorithm
+2. **Liang-Barsky Line Clipping Algorithm**
 
 A more efficient algorithm than Cohen-Sutherland, using parametric equations to clip lines against a rectangular window.
 
