@@ -14,7 +14,7 @@ A clipping window defines the area where lines should be visible. Any part of a 
 
 This algorithm efficiently clips a line against a rectangular window using outcodes (binary region codes) to classify endpoints.
 
-### Steps:
+#### Steps:
 
 - Compute the outcodes for both endpoints.
   
