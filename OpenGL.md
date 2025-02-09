@@ -47,5 +47,5 @@ To run these projects on your local machine:
    g++ main.cpp -o project -lGL -lGLU -lglut./project
 
 
-# Author: Aryan Dubey
+### Author: Aryan Dubey
 ### GitHub: aryandubey14
