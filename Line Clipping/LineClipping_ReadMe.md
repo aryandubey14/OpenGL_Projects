@@ -28,7 +28,7 @@ This algorithm efficiently clips a line against a rectangular window using outco
 
 A more efficient algorithm than Cohen-Sutherland, using parametric equations to clip lines against a rectangular window.
 
-### Steps:
+#### Steps:
 
 - Express the line segment parametrically as P(t) = P1 + t(P2 - P1).
 
